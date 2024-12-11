@@ -4,8 +4,8 @@ services:
     image: "postgres"
     container_name: "labgrb"
     environment:
-      - POSTGRES_USER=teo
-      - POSTGRES_PASSWORD=teo123
+      - POSTGRES_USER=bobi
+      - POSTGRES_PASSWORD=bobi
       - POSTGRES_DB=music
 
     ports:
